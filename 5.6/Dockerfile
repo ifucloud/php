@@ -30,9 +30,6 @@ apt-get install -y --no-install-recommends \
     docker-php-ext-install gd pdo_mysql mysqli mysql opcache intl bcmath zip && \
     docker-php-ext-enable bcmath zip pdo_mysql mysqli mysql
 
-# install memcached
-RUN pecl install memcached -y && docker-php-ext-enable memcached
-
 # Install Redis
 RUN pecl install redis -y && docker-php-ext-enable redis
 
