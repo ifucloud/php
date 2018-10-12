@@ -16,7 +16,6 @@ apt-get install -y --no-install-recommends \
     libpq-dev \
     libpng-dev \
     libjpeg-dev \
-    libpng17-dev \
     libfreetype6-dev \
     libicu-dev \
     libssl-dev \
